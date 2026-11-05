@@ -4,7 +4,7 @@
 
 可以把启用搜索的 AI 理解为一个谨慎、时间有限、需要核对来源的研究助理：它理解问题、寻找相关资料，再组织答案并可能给出引用。这个技能帮助营销信息更容易被理解、发现、核查与总结，同时保留面向人的说服力和转化目标。这是工作模型，并非所有 AI 平台的统一内部流程。
 
-[下载技能包](https://github.com/nicolas819919-Nick/geo-marketing-optimizer/raw/refs/heads/main/geo-marketing-optimizer.zip) · [完整安装与使用说明](installation.zh-CN.md) · [GEO 培训与方法总结](geo-training.zh-CN.md)
+[下载技能包](https://github.com/nicolas819919-Nick/geo-marketing-optimizer/releases/download/v1.0.0/geo-marketing-optimizer.zip) · [完整安装与使用说明](installation.zh-CN.md) · [GEO 培训与方法总结](geo-training.zh-CN.md)
 
 ## 能处理什么
 
@@ -36,7 +36,7 @@
 
 ## Codex 手动安装
 
-1. 下载并解压 [geo-marketing-optimizer.zip](https://github.com/nicolas819919-Nick/geo-marketing-optimizer/raw/refs/heads/main/geo-marketing-optimizer.zip)。
+1. 下载并解压 [geo-marketing-optimizer.zip](https://github.com/nicolas819919-Nick/geo-marketing-optimizer/releases/download/v1.0.0/geo-marketing-optimizer.zip)。
 2. 将整个 `geo-marketing-optimizer` 文件夹放入 Codex 用户技能目录：macOS/Linux 默认是 `~/.codex/skills/`，Windows 默认是 `%USERPROFILE%\.codex\skills\`；若配置了 `CODEX_HOME`，使用其下的 `skills/`。
 3. 保留 `SKILL.md`、`agents/` 和全部 `references/`。升级时先备份旧版，再替换完整文件夹，避免混合版本或重复安装。
 4. 新开 Codex 对话并输入 `$geo-marketing-optimizer` 调用；若未显示，重启应用后重试。组织使用统一发现目录时，以组织配置为准。
